@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4369B2;
+    color: #fff;
+}
+
+.middle-text {
+    align-self: center;
+    justify-items: center;
+    padding-top: 10px;
+}
