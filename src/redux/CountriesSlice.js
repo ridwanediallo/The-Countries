@@ -31,7 +31,15 @@ export const getCountriesData = createAsyncThunk('countries/getCountriesData', a
 const countriesSlice = createSlice({
   name: 'countries',
   initialState: [],
-  reducers: {},
+  reducers: {
+    countryDetails: (state, action) =>
+      state.map((country) => {
+        if (country.id === action.payload) {
+          return { ...country, clicked: !country.clicked };
+        }
+        return country;
+      }),
+  },
 
   extraReducers: {
     [getCountriesData.pending]: (state, action) => {
@@ -40,7 +48,7 @@ const countriesSlice = createSlice({
     [getCountriesData.fulfilled]: (state, action) => {
       console.log('success');
       return action.payload;
-    }
+    },
   },
 });
 
