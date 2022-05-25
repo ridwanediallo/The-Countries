@@ -20,12 +20,11 @@ export const getCountriesData = createAsyncThunk('countries/getCountriesData', a
       clicked: false,
     }));
 
-    console.log(countries);
+    // console.log(countries);
 
 
     return countries;
 })
-
 
 
 const countriesSlice = createSlice({
@@ -34,6 +33,7 @@ const countriesSlice = createSlice({
   reducers: {
     countryDetails: (state, action) =>
       state.map((country) => {
+        console.log(country)
         if (country.id === action.payload) {
           return { ...country, clicked: !country.clicked };
         }
@@ -51,5 +51,7 @@ const countriesSlice = createSlice({
     },
   },
 });
+
+export const {countryDetails} = countriesSlice.actions;
 
 export default countriesSlice.reducer;

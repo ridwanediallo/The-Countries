@@ -13,9 +13,10 @@
 img {
     width: 100%;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
-.card {
+.country-card {
     border: 2px solid ;
     margin: 10px;
 }

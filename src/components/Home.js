@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { getCountriesData } from '../redux/CountriesSlice';
+import { countryDetails, getCountriesData } from '../redux/CountriesSlice';
 import './Home.css';
 
 const Home = () => {
@@ -12,12 +13,24 @@ const Home = () => {
     dispatch(getCountriesData());
   }, [dispatch]);
 
+  const countryDetailsHandler = ({ target }) => {
+    const { id } = target;
+    dispatch(countryDetails(id));
+  };
+
   return (
     <div>
       <div className="wrap">
         {countries.map((country) => (
-          <div key={country.name} className='card'>
-            <img src={country.flag} alt={`${country.name}'s flag`} />
+          <div key={country.name} className="country-card">
+            <Link to='/detail'>
+              <img
+                id={country.name}
+                src={country.flag}
+                alt={`${country.name}'s flag`}
+                onClick={countryDetailsHandler}
+              />
+            </Link>
             <p>{country.name}</p>
             <p>{country.population}</p>
 
