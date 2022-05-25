@@ -11,6 +11,10 @@ const Home = () => {
   const dispatch = useDispatch();
   const countries = useSelector((state) => state.allCountries);
 
+  const filteredData = countries.filter((item) =>
+    item.name.toLowerCase().includes(query.toLowerCase())
+  );
+
   useEffect(() => {
     dispatch(getCountriesData());
   }, [dispatch]);
@@ -29,7 +33,7 @@ const Home = () => {
       <Search query={query} queryChangeHandler={queryHandler} />
       <div>
         <div className="wrap">
-          {countries.map((country) => (
+          {filteredData.map((country) => (
             <div key={country.name} className="country-card">
               <Link to="/detail">
                 <img
