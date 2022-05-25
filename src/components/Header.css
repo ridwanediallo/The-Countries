@@ -1,14 +1,19 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #4369B2;
-    color: #fff;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4369b2;
+  color: #fff;
+  padding: 20px;
 }
 
 .middle-text {
-    align-self: center;
-    justify-items: center;
-    padding-top: 10px;
+  align-self: center;
+  justify-items: center;
+  padding-top: 10px;
+}
+
+.link-home {
+  text-decoration: none;
+  color: #fff;
 }
