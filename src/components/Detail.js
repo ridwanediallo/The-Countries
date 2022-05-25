@@ -1,6 +1,6 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { Modal, Button } from 'react-bootstrap';
+import { useSelector} from 'react-redux';
+import { Modal} from 'react-bootstrap';
 
 const Detail = () => {
   const countries = useSelector((state) => state.allCountries);
@@ -8,7 +8,6 @@ const Detail = () => {
   const filteredCountry = countries.filter(
     (country) => country.clicked === true
   );
-  console.log(filteredCountry);
   return (
     <div className="card mb-3">
       {filteredCountry.map((country) => {
@@ -23,7 +22,7 @@ const Detail = () => {
                 <img
                   src={country.flag}
                   className="card-img-top pb-4"
-                  alt="..."
+                  alt={`${country.region}'s flag`}
                 />
                 <h5 className="py-2">{`Population: ${country.population}`}</h5>
                 <h5 className="py-2">{`Region: ${country.region}`}</h5>
