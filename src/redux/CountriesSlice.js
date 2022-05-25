@@ -33,7 +33,6 @@ const countriesSlice = createSlice({
   reducers: {
     countryDetails: (state, action) =>
       state.map((country) => {
-        console.log(country)
         if (country.id === action.payload) {
           return { ...country, clicked: !country.clicked };
         }
