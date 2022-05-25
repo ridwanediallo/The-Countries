@@ -28,10 +28,11 @@ const Detail = () => {
                 <h5 className="py-2">{`Region: ${country.region}`}</h5>
                 <h5 className="py-2">{`Continent: ${country.continent}`}</h5>
                 <h5 className="py-2">{`Subregion: ${country.subregion}`}</h5>
-                <h5 className="py-2">{`Timezone: ${country.timezone}`}</h5>
               </Modal.Body>
 
-              <Modal.Footer>{/* <h5>{country.population}</h5> */}</Modal.Footer>
+              <Modal.Footer>
+                <h5 className="py-2">{`Timezone: ${country.timezone}`}</h5>
+              </Modal.Footer>
             </Modal.Dialog>
           </div>
         );
