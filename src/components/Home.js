@@ -34,7 +34,7 @@ const Home = () => {
       <div>
         <div className="wrap">
           {filteredData.map((country) => (
-            <div key={country.name} className="country-card">
+            <div key={country.name} className="country-card rounded p-2">
               <Link to="/detail">
                 <img
                   id={country.name}
