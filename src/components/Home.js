@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import {FaArrowCircleRight} from 'react-icons/fa'
 import { countryDetails, getCountriesData } from '../redux/CountriesSlice';
 import './Home.css';
 import Search from './Search';
