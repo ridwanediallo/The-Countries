@@ -29,6 +29,7 @@ nav {
 .icons {
   display: flex;
   gap: 30px;
+  margin-right: 15px;
 }
 
 @media (max-width: 425px) {
