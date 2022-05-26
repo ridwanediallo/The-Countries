@@ -26,6 +26,11 @@ To get a local copy up and running follow these simple exampl
 
 [The Entire World Website](http://ridwanediallo.github.io/The-Countries)
 
+
+#### Capston project video
+
+[Video Link](https://youtu.be/_oDtvPwq8io);
+
 ### **Option 2**
 
 #### Set up your own copy locally
