@@ -20,8 +20,6 @@ export const getCountriesData = createAsyncThunk('countries/getCountriesData', a
       clicked: false,
     }));
 
-    // console.log(countries);
-
 
     return countries;
 })
