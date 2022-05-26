@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4369b2;
+  color: #fff;
+  padding: 20px;
+}
+
+.middle-text {
+  align-self: center;
+  justify-items: center;
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+.link-home {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  margin-right: 15px;
+}
+
+@media (max-width: 425px) {
+  .middle-text {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,100&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #3e61a3;
+}
+
+.items {
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  list-style: none;
+  color: #fff;
+}
+
+li:nth-child(odd) {
+  background: #4369b2;
+}
