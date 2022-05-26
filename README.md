@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple exampl
 
 #### Live demo
 
-[The Entire World Website](https://rid-bookstore-cms.netlify.app/)
+[The Entire World Website](http://ridwanediallo.github.io/The-Countries)
 
 ### **Option 2**
 
