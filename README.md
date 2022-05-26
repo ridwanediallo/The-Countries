@@ -7,7 +7,7 @@
 - React (CRA)
 - React Router Dom
 - Redux Toolkit
-- BookStore
+- Bootstrap
 
 ## sneak peeks
 
