@@ -5,15 +5,11 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="card mb-3"
-      />
+      <section />
     </div>
   </body>,
   "container": <div>
-    <div
-      class="card mb-3"
-    />
+    <section />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

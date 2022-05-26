@@ -5,6 +5,18 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <header>
+        <img
+          alt="globe"
+          class="globe"
+          src="globe.png"
+        />
+        <h2
+          class="title"
+        >
+          The entire world
+        </h2>
+      </header>
       <form
         class="container"
       >
@@ -19,14 +31,24 @@ Object {
           />
         </div>
       </form>
-      <div>
-        <div
-          class="wrap"
-        />
-      </div>
+      <ul
+        class="wrap"
+      />
     </div>
   </body>,
   "container": <div>
+    <header>
+      <img
+        alt="globe"
+        class="globe"
+        src="globe.png"
+      />
+      <h2
+        class="title"
+      >
+        The entire world
+      </h2>
+    </header>
     <form
       class="container"
     >
@@ -41,11 +63,9 @@ Object {
         />
       </div>
     </form>
-    <div>
-      <div
-        class="wrap"
-      />
-    </div>
+    <ul
+      class="wrap"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
