@@ -11,10 +11,10 @@
 
 ## sneak peeks
 
-![Application screenshot](./src/assets/Screenshot-dek.png)
+![Application screenshot](./src/assets/Screenshot-desk.png)
 
 
-![Application screenshot](./src/assets/Screenshot-mob-home.png) ||  ![Application screenshot](./src/assets/Screenshot-mob-details.png)
+![Application screenshot](./src/assets/Screenshot-mod-home.png) ||  ![Application screenshot](./src/assets/Screenshot-mod-details.png)
 
 
 ## Getting Started
