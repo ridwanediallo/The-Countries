@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
+import {FaArrowCircleRight} from 'react-icons/fa'
 import { countryDetails, getCountriesData } from '../redux/CountriesSlice';
 import './Home.css';
 import Search from './Search';
@@ -43,7 +44,17 @@ const Home = () => {
                   onClick={countryDetailsHandler}
                 />
               </Link>
-              <h5 className="py-2">{country.name}</h5>
+              <div className="name d-flex align-items-center justify-content-between">
+                <Link to="/detail" className="name">
+                  <h5
+                    className="name py-2"
+                    id={country.name}
+                    onClick={countryDetailsHandler}
+                  >
+                    {country.name}
+                  </h5>
+                </Link>
+              </div>
               <p>{`Population : ${country.population}`}</p>
             </div>
           ))}

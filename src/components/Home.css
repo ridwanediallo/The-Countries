@@ -23,6 +23,17 @@ img {
   margin: 10px;
 }
 
+.icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.name {
+  cursor: pointer;
+  text-decoration: none;
+  color: #4369b2;
+}
+
 
 @media (min-width: 800px) {
     .wrap {
