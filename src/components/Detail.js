@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector} from 'react-redux';
 import { Modal} from 'react-bootstrap';
+import './Detail.css'
 
 const Detail = () => {
   const countries = useSelector((state) => state.allCountries);

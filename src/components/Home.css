@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 .wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* gap: 5px; */
 }
 
 img {
@@ -17,7 +19,7 @@ img {
 }
 
 .country-card {
-  border: 2px solid #4369b2;
+  border: 3px solid #4369b2;
   margin: 10px;
 }
 
