@@ -8,7 +8,7 @@
 }
 
 #root {
-  background-color: #3E61A3;
+  background-color: #3e61a3;
 }
 
 .wrap {
@@ -32,7 +32,6 @@ li:nth-child(odd) {
   background: #4369b2;
 }
 
-
 .icon {
   cursor: pointer;
   font-size: 1.5rem;
@@ -43,8 +42,6 @@ li:nth-child(odd) {
   text-decoration: none;
   color: #fff;
 }
-
-
 
 .population {
   font-size: 18px;
