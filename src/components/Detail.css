@@ -23,8 +23,3 @@ body {
 li:nth-child(odd) {
   background: #4369b2;
 }
-
-li:nth-child(even) {
-  background: #3E61A3;
-}
-

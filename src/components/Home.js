@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { countryDetails, getCountriesData } from '../redux/CountriesSlice';
 import './Home.css';
 import Search from './Search';
+import Hero from './Hero'
 
 const Home = () => {
   const [query, setQuery] = useState('');
@@ -30,6 +31,7 @@ const Home = () => {
 
   return (
     <>
+    <Hero />
       <Search query={query} queryChangeHandler={queryHandler} />
         <ul className="wrap">
           {filteredData.map((country) => (
