@@ -12,6 +12,8 @@
 ## sneak peeks
 
 ![Application screenshot](./src/assets/Screenshot-dek.png)
+
+
 ![Application screenshot](./src/assets/Screenshot-mob-home.png) ||  ![Application screenshot](./src/assets/Screenshot-mob-details.png)
 
 
