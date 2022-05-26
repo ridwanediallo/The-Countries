@@ -14,7 +14,8 @@
 ![Application screenshot](./src/assets/Screenshot-desk.png)
 
 
-![Application screenshot](./src/assets/Screenshot-mod-home.png) ||  ![Application screenshot](./src/assets/Screenshot-mod-details.png)
+![Application screenshot](./src/assets/Screenshot-mod-details.png)  || ![Application screenshot](./src/assets/Screenshot-mod-home.png)
+
 
 
 ## Getting Started
