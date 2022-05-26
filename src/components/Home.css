@@ -7,9 +7,14 @@
   font-family: 'Lato', sans-serif;
 }
 
+#root {
+  background-color: #3e61a3;
+}
+
 .wrap {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
 }
 
 img {
@@ -19,8 +24,12 @@ img {
 }
 
 .country-card {
-  border: 3px solid #4369b2;
-  margin: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+li:nth-child(odd) {
+  background: #4369b2;
 }
 
 .icon {
@@ -31,7 +40,7 @@ img {
 .name {
   cursor: pointer;
   text-decoration: none;
-  color: #4369b2;
+  color: #fff;
 }
 
 .population {
@@ -46,6 +55,6 @@ img {
 
 @media (min-width: 992px) {
   .wrap {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }

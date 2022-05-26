@@ -4,6 +4,8 @@ header {
   align-items: center;
   gap: 2rem;
   padding: 30px 0;
+  margin-bottom: 15px;
+  background-color: #5c8df3;
 }
 
 .globe {
@@ -12,5 +14,5 @@ header {
 }
 
 .title {
-  color: #4369b2;
+  color: #fff;
 }

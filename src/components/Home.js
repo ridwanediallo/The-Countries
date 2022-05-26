@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { countryDetails, getCountriesData } from '../redux/CountriesSlice';
 import './Home.css';
 import Search from './Search';
+import Hero from './Hero'
 
 const Home = () => {
   const [query, setQuery] = useState('');
@@ -30,35 +31,25 @@ const Home = () => {
 
   return (
     <>
+    <Hero />
       <Search query={query} queryChangeHandler={queryHandler} />
-      <div>
-        <div className="wrap">
+        <ul className="wrap">
           {filteredData.map((country) => (
-            <div key={country.name} className="country-card rounded p-2">
-              <Link to="/detail">
-                <img
+            <li key={country.name} className="country-card p-2">
+              <Link to="/detail" className="name">
+                <h5
+                  className="name py-2"
                   id={country.name}
-                  src={country.flag}
-                  alt={`${country.name}'s flag`}
                   onClick={countryDetailsHandler}
-                />
+                >
+                  {country.name}
+                </h5>
               </Link>
-              <div className="name d-flex align-items-center justify-content-between">
-                <Link to="/detail" className="name">
-                  <h5
-                    className="name py-2"
-                    id={country.name}
-                    onClick={countryDetailsHandler}
-                  >
-                    {country.name}
-                  </h5>
-                </Link>
-              </div>
               <p className="population">{`Population : ${country.population}`}</p>
-            </div>
+            </li>
           ))}
-        </div>
-      </div>
+        </ul>
+
     </>
   );
 };

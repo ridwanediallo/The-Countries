@@ -49,6 +49,11 @@ To get a local copy up and running follow these simple exampl
 - Twitter: [@twitterridwan](https://twitter.com/RidwaneD)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ridwan-diallo)
 
+
+## Credits
+
+Thanks for [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the time and effort to make UI design.
+
 ## Contributors
 
 Contributions, issues, and feature requests are welcome!
