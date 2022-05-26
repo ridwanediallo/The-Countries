@@ -43,8 +43,8 @@ const Home = () => {
                   onClick={countryDetailsHandler}
                 />
               </Link>
-              <p>{country.name}</p>
-              <p>{country.population}</p>
+              <h5 className="py-2">{country.name}</h5>
+              <p>{`Population : ${country.population}`}</p>
             </div>
           ))}
         </div>
