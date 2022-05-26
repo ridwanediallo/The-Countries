@@ -1,4 +1,4 @@
-# BookStore CMS
+# The Entire World
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -7,10 +7,13 @@
 - React (CRA)
 - React Router Dom
 - Redux Toolkit
+- BookStore
 
-## sneak peek
+## sneak peeks
 
-![Application screenshot](./src/screencapture.png)
+![Application screenshot](./src/assets/Screenshot-dek.png)
+![Application screenshot](./src/assets/Screenshot-mob-home.png) ||  ![Application screenshot](./src/assets/Screenshot-mob-details.png)
+
 
 ## Getting Started
 
@@ -19,16 +22,17 @@ To get a local copy up and running follow these simple exampl
 
 #### Live demo
 
-[BookStore CMS Website](https://rid-bookstore-cms.netlify.app/)
+[The Entire World Website](https://rid-bookstore-cms.netlify.app/)
 
 ### **Option 2**
 
 #### Set up your own copy locally
 
-- Clone [the GitHub Repository](https://github.com/ridwanediallo/Bookstore-CMS.git)
-- Go to the Project `cd "Bookstore CMS"`
+- Clone [the GitHub Repository](https://github.com/ridwanediallo/The-Countries.git)
+- Go to the Project `cd "The-Countries"`
 - Run `npm install` to install the _dependencies_
 - Run `npm start` to run the live server.
+- Run `npm test` to run the tests
 
 ## About me
 
@@ -36,7 +40,7 @@ To get a local copy up and running follow these simple exampl
 
 - GitHub: [@githubridwan](https://github.com/ridwanediallo)
 - Twitter: [@twitterridwan](https://twitter.com/RidwaneD)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ridwan-diallo-9a1634193)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ridwan-diallo)
 
 ## Contributors
 
