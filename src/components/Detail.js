@@ -17,7 +17,7 @@ const Detail = () => {
         <div  key={country.name}>
           <ul key={country.name} className="items">
           <header>
-            <img className="globe" src={Globe} alt="globe" />
+            <img className="globe" src={country.flag} alt="globe" />
             <h2 className="title">{country.name}</h2>
           </header>
             <li className="item py-2 px-5">
