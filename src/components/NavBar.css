@@ -32,7 +32,7 @@ nav {
 }
 
 @media (max-width: 425px) {
-    .middle-text {
-        display: none;
-    }
+  .middle-text {
+    display: none;
+  }
 }

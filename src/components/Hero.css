@@ -1,16 +1,16 @@
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 30px 0;
 }
 
 .globe {
-    width: 6rem;
-    height: 6rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .title {
-    color: #4369b2;
+  color: #4369b2;
 }

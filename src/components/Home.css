@@ -39,13 +39,13 @@ img {
 }
 
 @media (min-width: 800px) {
-    .wrap {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+  .wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media (min-width: 992px) {
-    .wrap {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+  .wrap {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
