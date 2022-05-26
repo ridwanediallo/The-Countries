@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple exampl
 
 #### Capston project video
 
-[Video Link](https://youtu.be/_oDtvPwq8io);
+[Video Link](https://youtu.be/_oDtvPwq8io)
 
 ### **Option 2**
 
