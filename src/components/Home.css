@@ -34,6 +34,10 @@ img {
   color: #4369b2;
 }
 
+.population {
+  font-size: 18px;
+}
+
 
 @media (min-width: 800px) {
     .wrap {

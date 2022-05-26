@@ -54,7 +54,7 @@ const Home = () => {
                   </h5>
                 </Link>
               </div>
-              <p>{`Population : ${country.population}`}</p>
+              <p className="population">{`Population : ${country.population}`}</p>
             </div>
           ))}
         </div>
