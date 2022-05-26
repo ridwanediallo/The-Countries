@@ -3,3 +3,28 @@
 * {
   font-family: 'Lato', sans-serif;
 }
+
+body {
+  background-color: #3E61A3;
+}
+
+.items {
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  list-style: none;
+  color: #fff;
+}
+
+li:nth-child(odd) {
+  background: #4369b2;
+}
+
+li:nth-child(even) {
+  background: #3E61A3;
+}
+
