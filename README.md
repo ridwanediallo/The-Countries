@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple exampl
 
 #### Live demo
 
-[The Entire World Website](http://ridwanediallo.github.io/The-Countries)
+[The Entire World Website](https://rid-the-countries-version-1.netlify.app)
 
 
 #### Capston project video
